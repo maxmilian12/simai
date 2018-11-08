@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
     <Titles>
-        <EasyTutorial1>Základy SimAirportu</EasyTutorial1>
+        <EasyTutorial1>Základy hry SimAirport</EasyTutorial1>
         <Expansion>Rozšíření letiště</Expansion>
         <Baggage>Zavazadlové systémy</Baggage>
         <FuelPA>Reproduktorové a palivové systémy</FuelPA>
@@ -10,66 +10,64 @@
     <NextButton>Další</NextButton>
     <SkipObjective>Přeskočit</SkipObjective>
     <EasyTutorial1>
-        <IntroductionTitle>Vítejte do SimAirportu!</IntroductionTitle>
+        <IntroductionTitle>Vítejte u hry SimAirport!</IntroductionTitle>
         <Introduction>Tohle je první jednoduchý tutoriál
 
-Tohle letiště je Learnyvillskou bránou do světa. Jeho malý terminál má základní: transport, odbavení, security, a departure lounge, an aircraft gate, and baggage collection.
+Tohle letiště je Learnyvillskou bránou do světa. Jeho malý terminál má základní: dopravu, odbavení, bezpečnostní kontrolu, místo pro cestující čekající na odlet, letištní bránu a místo pro zavazadla.
 
-The problem is they never finished building it!</Introduction>
-        <CameraMovement>Use WASD, the arrow keys, or move your cursor to the edges of the screen to move the camera. You can even hold down the middle mouse button and move your cursor.
+Problém je že nikdy nebylo úplně dokončeno!</Introduction>
+        <CameraMovement>Použij WASD, klávesy šipek, nebo pohni svým kurzorem do okrajů obarzovky k pohybu kamery. Můžete také držet střední tlačítko myši a posouvat kurzorem.
 
-In the options screen, you can adjust how fast these controls move the camera.
+V nastevení můžeš nastavit jak rychle budou tyto příkazy pohybovat s kamerou .
 
-You can also change which keys do what commands.</CameraMovement>
-        <TutorialWindow>You can move the tutorial window by holding the left-mouse button and dragging it to a new position.
+Můžeš také změnit funkce pro jednotlivé klávesy.</CameraMovement>
+        <TutorialWindow>Okno tutoriálu můžete přesunout podržením levého tlačítka myši a přetažením na novou pozici.
         
-Most windows can be dragged, and most also let you close them with the X button. This window can be minimized/maximized if you need it to take up less space.</TutorialWindow>
-        <TutorialWindowObjective>Drag the window around!</TutorialWindowObjective>
-        <UserInterface>This complex simulation can be simple to understand if you take a few moments to look around the user interface.
+Většinu oken lze přetáhnout a většina z nich lze také zavřít pomocí tlačítka X. Toto okno lze minimalizovat / maximalizovat, pokud potřebujete, aby okno zabralo co nejméně místa.</TutorialWindow>
+        <TutorialWindowObjective>Přetáhni toto okno na jiné místo!</TutorialWindowObjective>
+        <UserInterface>Tato komplexní simulace může být lépe srozumitelná, pokud si prohlédnete uživatelské rozhraní.
 
-You have general stats at the top, time controls in the top right, various airport operations to the bottom left, and a selection of heatmaps to the right.
+Nahoře najdete obecné statistiky, ovládání času pak vpravo nahoře, různé operace na letišti vlevo dole a výběr tzv. heatmap pro lepší přehled na letišti vpravo dole.
 
-Press escape to close any top window (this will not work on the tutorial window).</UserInterface>
-        <ConstructIntroTitle>The Foundations of Construction</ConstructIntroTitle>
-        <ConstructIntro>One of the most important aspects of SimAirport is construction.
+Stisknutím klávesy escape (esc) zavřete horní okno (pro tutoriálu to nebude fungovat).</UserInterface>
+        <ConstructIntroTitle>Základy stavby</ConstructIntroTitle>
+        <ConstructIntro>Jedním z nejdůležitějších aspektů hrySimAirport je stavba a konstrukce objektů.
 
-Objects and structures must be built by workmen. All inside rooms must be built on foundations, and once completed, any indoor items can be placed in there.</ConstructIntro>
-        <Hire4Workmen>When you designate an area for construction, the building materials are automatically ordered.
+Objekty a konstrukce musí být postaveny pracovníky. Všechny vnitřní místnosti musí být postaveny na základech a po dokončení zde mohou být umístěny všechny vnitřní objekty.</ConstructIntro>
+        <Hire4Workmen>Když určíte oblast pro stavbu, stavební materiály budou automaticky objednány.
 
-Materials are delivered by trucks down the main road, to the Delivery zone (south west). The materials are then collected by Workmen to be placed around the airport. Any spare materials, such as from cancelled projects, are put into storage.</Hire4Workmen>
-        <Hire4WorkmenObjective>Hire at least 6 Workmen (in total), available in the staff hub (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
-        <DragFoundation>From the Build Menu, select Construction, and then select Foundation. Not sure what a tool or object is? You can hover over it for a description.
+Materiály jsou dodávány kamiony po hlavní silnici, do zóny zásobování. Materiály si pak převezmou pracovníci a postaví z nich nový objekt. Veškeré náhradní materiály, například ze zrušených objektů, jsou uloženy do skladu.</Hire4Workmen>
+        <Hire4WorkmenObjective>Najmi alespoň 6 pracovníků (celkem), najmout je můžeš v nabídce zaměstnanci.</Hire4WorkmenObjective>
+        <DragFoundation>Z nabídky postavit vyberte výstavba a poté vyberte možnost základy. Nevíte si rady, jaký nástroj nebo objekt je ten správný? Můžete na něj najet kurzorem pro zobrazení popisku.
         
-You will need to wait for the workers to build it, but you can speed up time with the controls in the top right corner of the screen, or by pressing 1/2/3 for speeds and SPACE to pause.</DragFoundation>
-        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Right click the project to cancel.</DragFoundationObjective>
-        <BuildingMistakes>Not only can you cancel a project during construction by right-clicking, you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
+Budete muset počkat až ji dělníci postaví, ale můžete zkrátit čas pomocí ovládacích prvků v pravém horním rohu obrazovky nebo stisknutím tlačítka 1/2/3 pro rychlost a mezerník pro pozastavení.</DragFoundation>
+        <DragFoundationObjective>Přetáhněte základ nad pruhovanou oblastí. Udělal jsi chybu? Pro zrušení klikněte pravým tlačítkem na projekt.</DragFoundationObjective>
+        <BuildingMistakes>Nejenže můžete zrušit projekt kdykoliv během stavby klepnutím na něj pravým tlačítkem myši, ale můžete také odstranit základy pomocí nástroje zbourat.
+Nebo, pokud jste omylem položili některé objekty, použijte nástroj vyčistit.</BuildingMistakes>
+        <GuestNeedsTitle>Potřeby cestujících a zóny</GuestNeedsTitle>
+        <GuestNeeds>Cestující mají různé potřeby, jako je hlad, potřeba toalety a nuda. Naše letiště aktuálně nabízí pouze toalety.
 
-Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.</BuildingMistakes>
-        <GuestNeedsTitle>Passenger Needs and Zoning</GuestNeedsTitle>
-        <GuestNeeds>Passengers have various needs, such as hunger, bladder, and boredom. Our airport currently deals with bladder needs with the restrooms.
+Řešením těchto požadavků se zvýší úroveň spokojenosti našich cestujících, což zlepší naše šance na získání lepších leteckých smluv.</GuestNeeds>
+        <Boredom>Arkádové hry pomůžou proti nudě. Abychom je mohli postavit, potřebujeme pro ně zónu.
+Zóny označují oblasti, kde mohou cestující a zaměstnanci používat určité zařízení a objekty. Vizualizaci zón můžete zapnout pomocí funkce sektorové zobrazení.</Boredom>
+        <BoredomObjective>Najděte nabídku zón a vyplňte novou oblast pomocí zóny arkádové hry.</BoredomObjective>
+        <ProblemArcadeTitle>Jak řešit problémy</ProblemArcadeTitle>
+        <ProblemArcade>Kdykoliv má zóna nějaký problém, zčervená. Najeďte na ni kurzorem, abyste viděli, co potřebuje. Většina problémů je buď nedostatečná velikost, nebo chybějící objekty.
 
-Dealing with these will raise our passengers' satisfaction levels, which will improve our chances of getting better airline contracts.</GuestNeeds>
-        <Boredom>An Arcade should help our passengers feel less bored. To do this, we need to zone an area for it.
+Stisknutím tlačítka R nebo prostředním tlačítkem myši otočíte objekt. Klikněte pravým tlačítkem myši na umístěný objekt, chcete-li jej zrušit nebo smazat.</ProblemArcade>
+        <ProblemArcadeObjective>Vyřešte problémy v zóně Arkádových her, dokud nebude zóna funkční!</ProblemArcadeObjective>
+        <EnvironmentTitle>Vylepšení letiště a Heatmapy</EnvironmentTitle>
+        <Environment>Letiště může být pro cestující frustrující. Rostliny jsou někdy to, co je potřeba jejich rozveselení!
 
-Zones designate areas where passengers and staff can use certain facilities and objects. You can toggle zone visualizations with KeyboardFunctions.ZoneToggle.</Boredom>
-        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone.</BoredomObjective>
-        <ProblemArcadeTitle>How to Fix Problems</ProblemArcadeTitle>
-        <ProblemArcade>Anytime a room has a problem, it will turn red. Hover over it to see what it needs. Most issues are either it is the wrong size, or it is missing objects.
+Rostliny a dekorace najdeš v nabídce stavba v části objekty a dekorace. Můžete také změnit design podlahy!
 
-Press KeyboardFunctions.RotateObject or middle-mouse-click to rotate an object. Right click on a placed object to cancel or delete it.</ProblemArcade>
-        <ProblemArcadeObjective>Fix the problems of the Arcade until it is functional!</ProblemArcadeObjective>
-        <EnvironmentTitle>Airport Improvements and Heatmaps</EnvironmentTitle>
-        <Environment>Airports can be frustrating for passengers. A humble plant is sometimes what's needed to cheer up them up!
+Chcete-li vidět "nejzelenější" oblasti vašeho letiště, můžete použít heatmapu životní prostředí.</Environment>
+        <Decorate>Ostatní heatmapy jsou také užitečné.
 
-Scenery can be found in the build menu, under Objects and Decor. You can also change the floor design!
+Informační heatmapa ukazuje, kde mohou cestující získat aktuální informace o svých letech.
 
-You can use the Environment Heatmap to see the most appealing areas of your airport.</Environment>
-        <Decorate>The other heatmaps are useful as well.
-
-The information heatmap shows where passengers can get the latest updates on their flights.
-
-Place info displays and kiosks to help passengers keep track, or else they may miss their flights.</Decorate>
-        <PlaneStandsTitle>Fixing the Broken Plane Stand!</PlaneStandsTitle>
+Umístěte informační displeje a kiosky, které cestujícím pomáhají sledovat aktuální informace o jejich letu.</Decorate>
+        <PlaneStandsTitle>Vyřeš problém na bráně</PlaneStandsTitle>
         <PlaneStands>We don't have any planes! In order to get planes, we first need a working plane stand, connected to a taxiway and assigned a Gate Agent Desk.
 
 Tip: In the Build Menu, you can search 'Gate' or 'Taxiway' to quickly find them. Once built, click on either the stand or the desk to assign them to each other.</PlaneStands>
