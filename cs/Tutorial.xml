@@ -68,24 +68,24 @@ Informační heatmapa ukazuje, kde mohou cestující získat aktuální informac
 
 Umístěte informační displeje a kiosky, které cestujícím pomáhají sledovat aktuální informace o jejich letu.</Decorate>
         <PlaneStandsTitle>Vyřeš problém na bráně</PlaneStandsTitle>
-        <PlaneStands>We don't have any planes! In order to get planes, we first need a working plane stand, connected to a taxiway and assigned a Gate Agent Desk.
+        <PlaneStands>Nemáme žádné letadla! Abychom získali letadla, potřebujeme pro ně nejprve parkovací stání (bránu), které je napojeno na příjezdovou dráhu a je mu přiřazena Kontrola letenek.
 
-Tip: In the Build Menu, you can search 'Gate' or 'Taxiway' to quickly find them. Once built, click on either the stand or the desk to assign them to each other.</PlaneStands>
-        <PlaneStandsObjective>Hover over the gate to see what is wrong or missing, then fix the issues.</PlaneStandsObjective>
-        <QueuesTitle>Queues for Gates</QueuesTitle>
-        <Queues>To improve efficiency, all boarding desks should have queues.
+Tip: V nabídce Postavit můžete vyhledat "Brána" nebo "Příjezdová dráha", abyste je mohli rychle najít. Po dokončení stavby klikněte na bránu nebo kontrolu letenek a přiřaďte je k sobě navzájem.</PlaneStands>
+        <PlaneStandsObjective>Umístěte kurzor nad bránu, abyste zjistili, co je špatně nebo co chybí, a pak vyřešte tyto problémy.</PlaneStandsObjective>
+        <QueuesTitle>Fronty pro brány</QueuesTitle>
+        <Queues>Pro zvýšení efektivity by měly mít všechny kontroly letenek svoje fronty.
 
-Click Build, then Queues, and drag out a new queue from close to the gate (see example pink area). Then, click on the gate or the queue to assign them to each other.
+Klikněte na možnost Postavit, pak na položku Fronty a přetáhněte novou frontu do blízkosti brány (viz příklad růžová oblast). Poté klikněte na bránu nebo frontu a přiřaďte je k sobě navzájem.
 
-Ticketing desks and security stands can also have queues.</Queues>
-        <QueuesObjective>Build and assign a queue for the gate agent desk.</QueuesObjective>
-        <FlightStatusTitle>Airports Need Planes!</FlightStatusTitle>
-        <FlightStatus>Now that we have a working plane stand, we need planes to attract new departing passengers, and to land arriving passengers.
+Přepážky pro odbavení a bezpečnostní kontrola by také měla mít fronty.</Queues>
+        <QueuesObjective>Postavte a přiřaďte frontu pro kontrolu letenek.</QueuesObjective>
+        <FlightStatusTitle>Letiště potřebujete letadla!</FlightStatusTitle>
+        <FlightStatus>Nyní, když máme bránu, potřebujeme letadla, abychom přilákali nové odlétající cestující a aby mohly přistávat přilétající cestující.
 
-On the flight status screen (KeyboardFunctions.FlightStatus), you'll see that there are currently no planes!</FlightStatus>
-        <FlightManage>Open up flight management (KeyboardFunctions.FlightSchedule), where you'll see available airline contracts with daily flights. We can only support small planes in the morning, which can be filtered at the top.
+V nabídce stav letů zjistíte, že v současné době nejsou naplánovány  žádné lety!</FlightStatus>
+        <FlightManage>Otevřete nabídku řízení letů , zde uvidíte dostupné letecké smlouvy s každodenními lety. Nyní zde můžou přistávat pouze malá letadla - ráno, které mohou být vyfiltrovány nahoru.
 
-In order to get PM flights, you will need to click on your runway and add lights in the upgrades menu!</FlightManage>
+Chcete-li získat lety ve večerních hodinách, budete muset kliknout na svou ranvej a vylepšit jí pomocí přistávacích světel!</FlightManage>
         <FlightManageObjective>Accept and schedule the two available flights.</FlightManageObjective>
         <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways.
 
