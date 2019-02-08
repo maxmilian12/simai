@@ -635,7 +635,7 @@
             <description>Přidává schody k vaší malé bráně a zpřístupní ji výhradně z druhého patra.</description>
         </SmallGateStairs>
         <MovingWalkway>
-            <name>Pohybující se chodník</name>
+            <name>Pohyblivý pás</name>
             <description>Dává cestujícím možnost cestovat rychle na dlouhé vzdálenosti.</description>
         </MovingWalkway>
         <FlightInfoDisplayXL>
