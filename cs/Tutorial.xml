@@ -86,76 +86,76 @@ V nabídce stav letů zjistíte, že v současné době nejsou naplánovány  ž
         <FlightManage>Otevřete nabídku řízení letů , zde uvidíte dostupné letecké smlouvy s každodenními lety. Nyní zde můžou přistávat pouze malá letadla - ráno, které mohou být vyfiltrovány nahoru.
 
 Chcete-li získat lety ve večerních hodinách, budete muset kliknout na svou ranvej a vylepšit jí pomocí přistávacích světel!</FlightManage>
-        <FlightManageObjective>Accept and schedule the two available flights.</FlightManageObjective>
-        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways.
+        <FlightManageObjective>Přijměte a naplánujte dva dostupné lety.</FlightManageObjective>
+        <RunwayLength>Na vašem letišti mohou přistávat i větší letadla. Odemknete je postavením velkých/extra velkých bran a zvětšením délky vašich ranvejí.
 
-To do this, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
-        <PlaneLands>Planes usually start arriving the next day after they have first been assigned, so you might not see any today.
+Chcete-li to udělat, jednoduše klikněte na nástroj pro stavbu ranveje (betonové nebo asfaltové) a přetáhněte stávající ranvej a tím ji rozšiřte v libovolném směru.</RunwayLength>
+        <PlaneLands>Letadla obvykle začínají přilétat následující den poté , co byly zařazeny do hlavního letového plánu, takže dneska budete čekat marně.
 
-It's up to you to figure out how best to balance your schedule. Too crowded, and you may make your airport chaotic and lose satisfaction. Too quiet, and the airport may not be profitable.</PlaneLands>
-        <UsefulUITitle>Important Information</UsefulUITitle>
-        <UsefulUI>At the top of the screen you can hover over airline interest and passenger satisfaction for details. Clicking on them gives your more options.
+Je na vás, abyste zjistili, jak nejlépe vybalancovat hlavní letový plán. Pokud bude příliš přeplněný bude vaše letiště působit na cestující chaoticky a budou méně spokojení. Naopak pokud bude příliš klidné, vaše letiště nemusí být ziskové.</PlaneLands>
+        <UsefulUITitle>Důležitá informace</UsefulUITitle>
+        <UsefulUI>V horní části obrazovky se můžete podrobně prozkoumat, jaký mají letecké společnosti zájem o vaše letiště, nebo zjistit proč jsou cestující nespokojení. Kliknutím na příslušnou ikonu získáte ještě více informací.
 
-These two screens will help you determine how you need to improve your airport for future airlines and passengers.</UsefulUI>
-        <WeatherAndUpgrades>At the top, you can also see the weather. This will affect how safe it is for planes to land.
+Tyto dvě okna vám pomohou určit, jak potřebujete vylepšit své letiště pro další letecké společnosti a cestující.</UsefulUI>
+        <WeatherAndUpgrades>V horní části můžete také vidět počasí. To bude mít vliv na to, jak bezpečné je přistání letadel.
 
-You can click on a runway to upgrade it, and add devices to make them safer. This allows planes to land in harsher condtions.</WeatherAndUpgrades>
-        <FinanceHubTitle>Becoming A Successful Tycoon</FinanceHubTitle>
-        <FinanceHub>More importantly, we need to make a profit. The Finance Hub has various operations, including taking out loans, which is useful if you are low on cash.
+Můžete kliknout na ranvej a vylepšit ji, přidáváním objektů, které ji učiní bezpečnější. To umožní přistát letadlům i v tvrdých podmínkách.</WeatherAndUpgrades>
+        <FinanceHubTitle>Jak se stát úspěšným magnátem</FinanceHubTitle>
+        <FinanceHub>Ještě důležitější je, abychom měli zisk. Ve finančním centru máš hodně možností, včetně čerpání půjček, které jsou užitečné, pokud máte nedostatek peněžní hotovosti.
 
-For quickness, you can also hover over your balance at the top of the screen for a brief overview.</FinanceHub>
-        <Research>Unfortunately, some operations are locked. Usually, you need either specialist staff or research. As usual, hover over a problem to see what's required.
+Pro rychlý přehled můžete najet ukazatelem myši na aktuální stav peněz v horní části obrazovky, kde naleznete stručný přehled o vašich výdajích a příjmech.</FinanceHub>
+        <Research>Bohužel některé možnosti jsou zamčené. Obvykle potřebujete najmout odborný personál nebo provést výzkum. Jako vždy, umístěte kurzor nad problém a zjistěte, co je požadováno.
 
-If you are missing a staff member that you cannot hire, check the Research screen. You might need to unlock them first. Keeping up with research is important for staying competitive.</Research>
-        <CommercialOperations>What's also important to your balance is your prices.
+Pokud vám chybí zaměstnanec, kterého nemůžete najmout, zkontrolujte kartu pro výzkum. Pravděpodobně je budete muset nejprve odemknout/vyzkoumat. Výzkum je důležitý pro udržení konkurenceschopnosti.</Research>
+        <CommercialOperations>Co je také důležité pro rovnováhu vašich financí, jsou vaše ceny.
             
-In the Commercial Operations screen (KeyboardFunctions.OpsControlPanel), you can adjust the prices you charge. Remember: low prices increase airline satisfaction, but high prices increases profits at the cost of satisfaction!</CommercialOperations>
-        <FinaleTitle>That's the Basics</FinaleTitle>
-        <Finale>That is the basics of running an airport. Feel free to expand this airport or try a new airport!
+Na kartě Operačního kontrolního panelu můžete upravit ceny, které účtujete. Nezapomeňte: nízké ceny zvyšují spokojenost leteckých společností, ale vysoké ceny zvyšují zisky, ovšem za cenu spokojenosti!</CommercialOperations>
+        <FinaleTitle>To jsou základy</FinaleTitle>
+        <Finale>To byli základy pro úspěšné provozování letiště. Neváhejte rozšířit toto letiště nebo založit letiště nové!
             
-It is recommended that you try playing the default starter airport, or complete the other tutorials, before creating an airport from scratch.</Finale>
+Doporučujeme, abyste před vytvořením letiště na prázdném pozemku zkusili napřed začít s výchozím letiště a dokončit ostatní tutoriály.</Finale>
     </EasyTutorial1>
     <Expansion>
-        <IntroductionTitle>Large Airport Expansion</IntroductionTitle>
-        <Introduction>Welcome to the second easy difficulty tutorial.
+        <IntroductionTitle>Velké rozšíření letiště</IntroductionTitle>
+        <Introduction>Vítejte u druhého snadného tutoriálu.
 
-Large, complex airports can be difficult for passengers to traverse. This can cause them to be late, hurting your ratings.</Introduction>
-        <SolutionsTitle>Solutions To Improve Efficiency</SolutionsTitle>
-        <Solutions>Solution 1: Manage your queues.
+Velké a složité letiště mohou způsobit komplikace pro vaše cestující. To může způsobit, že dorazí k bráně pozdě, a tím sníží hodnocení vaše vašeho letiště.</Introduction>
+        <SolutionsTitle>Trable s efektivitou letiště</SolutionsTitle>
+        <Solutions>Řešení 1: Vytvořte nové fronty.
 
-Solution 2: Build a second terminal.
+Řešení 2: Postavení druhého terminálu.
 
-Solution 3: Place moving walkways in long terminals to help passengers move faster.
+Řešení 3: Umístěte pohyblivé pásy do dlouhých terminálů, aby se cestující přemisťovali rychleji
 
-Solution 4: Build on multiple floors to keep distances short.</Solutions>
-        <Tip1Title>Solution 1: Managing Queues</Tip1Title>
-        <Tip1>You can assign the same queue to multiple services, such as one queue to three ticketing desks. This is an optimal way of making sure all waiting passengers are served in the order they arrived.</Tip1>
-        <Tip2>Sometimes a fair order is not the most efficient!
+Řešení 4: Využijte více podlaží, abyste zkrátili vzdálenosti.</Solutions>
+        <Tip1Title>Řešení 1: Vytváření front</Tip1Title>
+        <Tip1>Stejnou frontu můžete přiřadit k několika objektům, například k jedné frontě mohou být přiřazeny tři přepážky k odbavení. To je ideální způsob, jak zajistit, aby všichni čekající cestující byli obsluhováni v pořadí, ve kterém dorazili.</Tip1>
+        <Tip2>Někdy není spravedlivost to nejúčinnější!
 
-Creating a seperate queue for flight crew will allow them to bypass the main queue, which is especially useful at security. If the crew arrive late to the plane, it causes delays.</Tip2>
-        <Tip3>You may also want to consider having priority queues for first class, as their satisfaction affects your airport rating much more than coach satisfaction does.
+Vytvoření fronty pouze pro palubní personál jim umožní vyhnout se velkým frontám. Pokud posádka přijde pozdě do letadla, způsobí to zpoždění.</Tip2>
+        <Tip3>Možná budete dobré postavit i prioritní fronty pro první třídu, jelikož jejich spokojenost ovlivňuje vaše hodnocení na letišti mnohem víc než spokojenost normálních cestujících.
 
-Don't skip making queues! Staff get confused about who is next to serve when everyone is crowding around, causing them to be much slower.</Tip3>
-        <SecondTerminalTitle>Solution 2: Multiple Terminals</SecondTerminalTitle>
-        <SecondTerminal>Multiple Terminals:
+Nepřeskakujte stavbu front! Zaměstnanci jsou pak zmateni tím, koho mají první obsloužit, což způsobuje, že jsou mnohem pomalejší.</Tip3>
+        <SecondTerminalTitle>Řešení 2: Více terminálů</SecondTerminalTitle>
+        <SecondTerminal>Více terminálů:
 
-If there's enough space, and you have a large enough budget, a second terminal would be great for improving airport efficiency. This allows you to split up airplane gates between multiple security and ticketing zones, as long as they are connected!</SecondTerminal>
-        <SecondTerminalProblems>This will require a lot more infrastructure to function correctly. Only do this once you are confident in how to get the first terminal working.
+Pokud je zde dostatek místa a máte dostatečně velký obnos peněz, druhý terminál by byl skvělý pro zlepšení efektivity letiště. To vám umožní rozdělit brány mezi více bezpečnostních kontrol a odbavovacích zón, pokud jsou k nim připojeny!</SecondTerminal>
+        <SecondTerminalProblems>To bude vyžadovat mnohem více infrastruktury pro správné fungování. Dělejte to pouze, máte li  jistotu, že první terminál funguje jak má.
 
-Tip: You could load the default map, and copy it below it to practise making one! Make sure the operational objects are assigned correctly.</SecondTerminalProblems>
-        <WalwayIntroTitle>Solution 3: Moving Walkways</WalwayIntroTitle>
-        <WalkwayIntro>Building walkways along very long areas of the terminal is the easiest and cheapest way to improve efficiency. This is assuming you have wide corridors to drag them down.
+Tip: Nový terminál můžete na zkoušku postavit v neomezené hře. Ujistěte se, že jsou správně přiřazeny všechny objekty.</SecondTerminalProblems>
+        <WalwayIntroTitle>Řešení 3: Pohyblivé pásy</WalwayIntroTitle>
+        <WalkwayIntro>Stavění pohyblivých pásů podél velmi dlouhých oblastí terminálu je nejjednodušší a nejlevnější způsob, jak zvýšit rychlost přesunu cestujících.
 
-They can also be used by staff and baggage carts! Because each go in one-direction, consider how passengers will use them. Don't build huge ones; leave gaps so people are free to walk off them.</WalkwayIntro>
-        <WalkwayTips>Just remember that long walking distances are not the only reason for passengers being late. Make sure to investigate long queues and where people are slowing down.
+Mohou je použít i zaměstnanci a vozíky na osobní zavazadla! Každý pás přepravuje cestující pouze jednosměrně, zvažte proto, jak je rozmístíte po terminálu. Nestavte velmi dlouhé pohyblivé pásy, postavte raději více kratších, aby z nich cestující mohli kdykoliv vystoupit.</WalkwayIntro>
+        <WalkwayTips>Nezapomeňte, že dlouhé  docházkové vzdálenosti nejsou jediným důvodem proč mají cestující zpoždění. Ujistěte se, že cestující nemusí stát dlouhé fronty, které je můžou ještě zpomalit.
 
-As explained in tutorial 1, building custom queues allows you to visually identify traffic problems.</WalkwayTips>
-        <WalkwayTask>A recommended area has been shown as an example, going from security to the departure lounge. This is recommended because passengers need to get to their flights quickly.
+Jak je vysvětleno v prvním tutoriálu, vytváření front umožňuje vizuálně identifikovat problémy s nedostatečnou kapacitou tvého letiště.</WalkwayTips>
+        <WalkwayTask>Doporučená oblast byla zvýrazněna jako příklad, od bezpečnostní kontroly až po odletový prostor. Tuto cestu doporučujeme, protože cestující se potřebují rychle dostat ke své bráně.
 
-To build them, search "Walkway" in the build menu search bar, and then simply drag in the direction you want it to be built in.</WalkwayTask>
-        <WalkwayTaskObjective>Build a walkway, possibly on the recommended area.</WalkwayTaskObjective>
-        <FloorsIntroTitle>Solution 4: Multiple Floors</FloorsIntroTitle>
-        <FloorsIntro>Multiple Floors:
+Chcete-li je postavit, vyhledejte v navigačním panelu nabídky "Pohyblivý chodník" a pak jej jednoduše přetáhněte v požadovaném směru.</WalkwayTask>
+        <WalkwayTaskObjective>Postavte pohyblivý pás v doporučené oblasti.</WalkwayTaskObjective>
+        <FloorsIntroTitle>Řešení 4: Více podlaží</FloorsIntroTitle>
+        <FloorsIntro>Více podlaží:
             
 It might not be practical to fit in walkways if there is little corridor space.
 
