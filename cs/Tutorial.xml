@@ -290,39 +290,38 @@ V budoucnu můžete vylepšit brány tak, aby měly svoje vlastní palivové por
         <Finale>Nyní máte fungující systém rozhlasu a paliva!</Finale>
     </FuelPA>
     <Scheduling>
-        <IntroductionTitle>Scheduling Workers Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the Scheduling Workers Tutorial!
+        <IntroductionTitle>Směny zaměstnanců</IntroductionTitle>
+        <Introduction>Vítejte u tutoriálu směny zaměstnanců!
 
-Here you'll learn how to assign scheduled operation times for objects and zones. This is useful as it allows you to save costs on workers during quiet times, or increase the number of workers during busy periods.</Introduction>
-        <HowItWorks>It works by assigning schedules to specific objects and zones, rather than per worker. This is so that you could, as an example, set chefs to work in terminal 1's kitchen in the morning, then send them to terminal 2's in the afternoon to prepare their orders.
+Zde se dozvíte, jak naplánovat časy provozu objektů a zón. To je užitečné, protože díky tomu uspoříte na výplatách pracovníků během doby kdy na letišti nikdo není nebo můžete  počet pracovníků zvýšit během špičky.</Introduction>
+        <HowItWorks>Funguje to tak, že konkrétním objektům a zónám přidělíte určitý časový rozvrh. Zde je jeden příklad, nastavíte kuchyň, aby v ní ráno pracovali kuchaři, a odpoledne je automaticky pošlete do druhého terminálu do jiné kuchyně, aby zde připravili své objednávky.
 
-Or you could have staff who work at ticketing desks as people arrive by transport, then move them onto gate agent desks when their flights arrive.</HowItWorks>
-        <StaffHubTitle>Who can be scheduled?</StaffHubTitle>
-        <StaffHub>In the Staff Hub screen, you can hover over each type of worker to find out which ones can be scheduled. For example, security is shown to allow schedules, therefore, objects that are ran by security can be scheduled to be open at certain times of the day.
+Nebo byste mohli mít zaměstnance, kteří pracují na přepážkách pro odbavení, jakmile lidé přestanou přicházet, přemístí se k přepážkám na kontrolu letenek.</HowItWorks>
+        <StaffHubTitle>Komu můžete naplánovat směny?</StaffHubTitle>
+        <StaffHub>Na obrazovce zaměstnanci můžete zjisti, kterým zaměstnanců lze naplánovat směny. Například bezpečnostní kontrolu lze naplánovat tak, aby byla aktivní jen v určitých částech dne.
 
-Notice how each one has a management overhead fee. This is increased for each scheduled staff per day to cover the costs to manage schedules.</StaffHub>
-        <SchedulerTitle>The Staff Deployment Screen</SchedulerTitle>
-        <Scheduler>Here you can see the staff deployment screen. Throughout the airport should be numbers showing the number of staff assigned to each object that allows scheduling.
+Všimněte si, každý zaměstnanec vás něco stojí. Z toho plyne: Čím více zaměstnanců, tím více vás budou stát.</StaffHub>
+        <SchedulerTitle>Karta směny zaměstnanců</SchedulerTitle>
+        <Scheduler>Zde vidíte obrazovku, která vám říká kolik a u kterého zařízení má být pracovníků. Po celém letišti by měla být čísla ukazující počet zaměstnanců přidělených ke každému objektu, který umožňuje plánování směn.
 
-At the bottom of the screen is a timeline, showing the schedules throughout the day. At the moment there should be just one schedule created.</Scheduler>
-        <Timeline>On here you can add schedules, and for each schedule you can change the number of staff at each post.</Timeline>
-        <TimelineObjective>Create a new schedule by clicking on the plus button. After it is named you will be able to assign it.</TimelineObjective>
-        <AssigningTimes>Make sure it is selected (at the top of the timeline it says which is currently selected), then click a start time and drag across. It snaps to the nearest 30 minutes.
-
+V dolní části obrazovky je časová osa zobrazující směny po celý den. V tuto chvíli by zde měla být vytvořena pouze jedna směna.</Scheduler>
+        <Timeline>Zde můžete přidat další směny, u každé směny můžete změnit počet zaměstnanců na každém stanovišti.</Timeline>
+        <TimelineObjective>Vytvořte novou směnu kliknutím na tlačítko plus. Po jeho pojmenování ji bude moci přiřadit do určitých částí dne.</TimelineObjective>
+        <AssigningTimes>Ujistěte se, že máte vybranou směnu kterou chcete upravit (nad časovou osou je seznam směn, vybraná je ta, která je zvýrazněná), poté klikněte na čas začátku směny a táhněte ji až na její konec. Směny lze plánovat po minimálně půl hodině
 An example would be creating a night schedule in the early morning and late night.</AssigningTimes>
-        <RemoveRename>You can remove or rename a schedule by clicking on one of the options next to the schedule editor title.
+        <RemoveRename>Směnu můžete zrušit nebo přejmenovat kliknutím na jednu z možností vedle názvu směny.
 
-The last option is to copy the times from another schedule, which is useful if you only need to make small adjustments to an existing one.
+Poslední možností je zkopírovat zaměstnance z jiné směny, což je užitečné, pokud potřebuješ udělat jen malé úpravy.
 
-It has just two steps! Step 1: click on the schedule you wish to receive the changes. Step 2: select copy from, and select the schedule.</RemoveRename>
-        <AddRemoveStaff>With schedules setup, you can now adjust the number of workers at each object.
+Má to jen dva kroky! Krok 1: klikněte na směnu, do které chcete vložit zaměstnance z jiné směny. Krok 2: zvolte ze které směny se mají zaměstnanci zkopírovat.</RemoveRename>
+        <AddRemoveStaff>Nyní můžete upravit počet pracovníků u každého objektu.
 
-Most can only have a maximum of 1 staff (hover over each object to see the limits). Some objects, such as the kiosks and kitchens, can have multiple staff to make them more efficient.</AddRemoveStaff>
-        <SeeIt>To see the schedules in action, let time pass and watch them arrive and leave at the various times.
+Většina objektů může mít maximálně 1 zaměstnance (přesuňte kurzor nad každý objekt, abyste viděli jeho limit). Některé objekty, jako jsou stánky a kuchyně, mohou mít více pracovníků, aby byli efektivnější.</AddRemoveStaff>
+        <SeeIt>Chcete-li vidět jak směny fungují v akci, nechte čas plynout a sledujte zaměstnance, jak přicházejí a odcházejí v různých časech.
 
-You will need a drop off and pickup zone for this to happen, because workers arrive and leave via transport. The more schedules you add, the more you can fine tune the coordination of your workers.</SeeIt>
-        <EndTitle>Tutorial Completed</EndTitle>
-        <End>You can now schedule when objects will be ran by staff, and get finer control over your airport.</End>
+Budete potřebovat zónu pro výstup a nástup, protože zaměstnanci dorazí a odjíždí pomocí autobusů/vlaků. Čím více směn přidáte, tím více můžete vyladit koordinaci vašich zaměstnanců.</SeeIt>
+        <EndTitle>Tutoriál dokončen</EndTitle>
+        <End>Nyní můžete naplánovat, kdy budou objekty fungovat a získat tak lepší kontrolu nad vaším letištěm.</End>
     </Scheduling>
     <FoodStores>
         <IntroductionTitle>Food and Shopping Tutorial</IntroductionTitle>
