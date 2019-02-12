@@ -215,80 +215,79 @@ Vozíky na zavazadla budou dodávat zavazadla pouze bránám, které jsou přiř
         <CheckDepotWorksObjective>Nyní klikněte na zavazadlové depo a přiřaďte ho k bráně.</CheckDepotWorksObjective>
         <DepotToPlane>Zavazadla se zatím nemají jak dostat do letadel! Zavazadlové vozíky doručují zavazadla do a ze zavazadlového depa. Vozíky parkují v hangárech.
 
-V nabídce postavit můžete vyhledat "hangár" nebo jej můžete najít ve struktuře.</DepotToPlane>
+V nabídce postavit můžete vyhledejte "hangár" nebo jej můžete najít ve výstavbě a venkovních zařízeních.</DepotToPlane>
         <DepotToPlaneObjective>Postavte malý hangár kdekoli vedle příjezdové dráhy, a jakmile bude postaven, zakup zavazadlový vozík.</DepotToPlaneObjective>
-        <DepartureWorks>Zavazadlový vozík bude dodávat zavazadla mezi zavazadlovým depem a přiřazenými branami.
+        <DepartureWorks>Zavazadlový vozík bude zprostředkovávat dopravu zavazadel mezi zavazadlovým depem a přiřazenými branami.
 
 Nyní máme roztříděné zavazadla do letadel, ale teď musíme ještě vyřídit zavazadla z letadel.</DepartureWorks>
-        <DepotToHubTitle>Krok 2: Z letadel na výdej zavazadel</DepotToHubTitle>
+        <DepotToHubTitle>Krok 2: Z letadel na zavazadlový pás</DepotToHubTitle>
         <DepotToHub>Za prvé, musí přepravit zavazadla ze zavazadlového depa do rozbočovače.</DepotToHub>
         <DepotToHubObjective>Propojte pomocí pásového dopravníku výjezd ze zavazadlového depa a vjezd do rozbočovače.</DepotToHubObjective>
         <Arrivals>Nyní cestující potřebují způsob, jak si svoje zavazadla převzít.
 
-They collect these from baggage carousels, which need to be connected underground. It already comes with a ramp in the middle of it.</Arrivals>
-        <ArrivalsObjective>In the Baggage Claim zone, add a carousel, which is found in Utilities.</ArrivalsObjective>
-        <HubToCarousel>Finally, the luggage needs to get from the hub to the carousel!</HubToCarousel>
-        <HubToCarouselObjective>Connect the remaining out of the hub to the in of the carousel.</HubToCarouselObjective>
-        <FinaleTitle>Working Baggage System</FinaleTitle>
-        <Finale>Congratulations, you (assuming you didn't skip) have a working baggage system!</Finale>
+Cestující si zavazadla mohou vyzvednou na zavazadlovém pásu, které je třeba v podzemí připojit k rozbočovači.</Arrivals>
+        <ArrivalsObjective>Do zóny výdej zavazadel postav zavazadlový pás, který se nachází ve složce služby.</ArrivalsObjective>
+        <HubToCarousel>A nakonec se musí zavazadla dostat z rozbočovače na zavazadlový pás!</HubToCarousel>
+        <HubToCarouselObjective>Propojte výjezd rozbočovače a vjezd zavazadlového pásu.</HubToCarouselObjective>
+        <FinaleTitle>Fungující zavazadlový systém</FinaleTitle>
+        <Finale>Gratulujeme, nyní máte (za předpokladu, že jste tutoriál nepřekročili) funkční zavazadlový systém!</Finale>
     </Baggage>
     <FuelPA>
-        <IntroductionTitle>PA Systems and Fuel</IntroductionTitle>
-        <Introduction>Welcome to the second advanced tutorial. This tutorial will help make your large airports operate better.
+        <IntroductionTitle>Rozhlas a palivo</IntroductionTitle>
+        <Introduction>Vítejte u druhého pokročilého tutoriálu. Tento tutoriál vám pomůže, s lepším fungováním velkých letišť.
 
-PA systems help stop passengers and flight crew missing their flights, while fuel services will increase the interest of airlines!</Introduction>
-        <PAInfoTitle>Public Announcements</PAInfoTitle>
-        <PAInfo>Firstly, let's get a PA system working. Let's not lose high ratings on confused passengers.
+Rozhlasový systém pomáhá cestujícím a letové posádce stihnout jejich lety, zatímco palivové služby zvýší zájem leteckých společností o vaše letiště!</Introduction>
+        <PAInfoTitle>Veřejná oznámení</PAInfoTitle>
+        <PAInfo>Za prvé, jak celý rozhlasový systém funguje. Nedostávejte velmi malá hodnocení od zmatených cestujících.
             
-The PA system is triggered twice during the boarding process. First, when the plane begins boarding. Then, it broadcasts a "last call" about 15-20 minutes before departing.</PAInfo>
-        <TechnologyTitle>Unlocking PA</TechnologyTitle>
-        <Technology>You need to research Technology in order to be able to hire a CTO (Chief Technology Officer) and unlock the PA systems.
+Rozhlasový systém se aktivuje dvakrát během nástupu do letadla. Poprvé, když nástup do letadla začne. A podruhé, když zbývá 15-20 minut do odletu tzv. "last call".</PAInfo>
+        <TechnologyTitle>Odemknutí rozhlasového systému</TechnologyTitle>
+        <Technology>Potřebujete vyzkoumat technologie, abyste mohli najmout ředitele technologií a odemknout tak rozhlasové systémy.
 
-While you are waiting for it to research, you can build an office for your future CTO. During the tutorial, research is much faster than normal!</Technology>
-        <TechnologyObjective>Research Technology in the research screen.</TechnologyObjective>
-        <CTO>Once you have a CTO and an office, you will be able to unlock PA systems.</CTO>
-        <CTOObjective>Hire a CTO and make sure that they have an office.</CTOObjective>
-        <SpeakersTitle>Building the PA System</SpeakersTitle>
-        <Speakers>Speakers relay announcements across the terminal. Passengers need to be close to a speaker, and in the direction of a speaker, to hear it.
+Zatímco čekáte než bude výzkum dokončen, můžete postavit kancelář pro budoucího ředitele technologií. Během tutoriálu je výzkum mnohem rychlejší než normálně!</Technology>
+        <TechnologyObjective>Vyzkoumej technologie na kartě výzkumu.</TechnologyObjective>
+        <CTO>Jakmile budete mít ředitele technologií a kancelář, budete moci odemknout rozhlasové systém.</CTO>
+        <CTOObjective>Přijměte ředitele technologií a ujistěte se, že má svoji kancelář.</CTOObjective>
+        <SpeakersTitle>Výstavba rozhlasového systému</SpeakersTitle>
+        <Speakers>Reproduktory rozšiřují důležitou zprávu po celém terminálu. Cestující musí být blízko k reproduktoru a ve směru kterým reproduktor míří, aby ji slyšeli.
         
-As you are placing them, use the PA Speakers heatmap to see the area that they affect.</Speakers>
-        <SpeakersObjective>Place at least 4 speakers in areas most likely to be visited by passengers. Use the PA Speakers heatmap to see coverage.</SpeakersObjective>
-        <Amplifier>PA Systems use amplifiers to connect the speakers to a central electrical system.
+Když reproduktory umisťujete, použijte vizualizaci efektu reproduktorů, abyste viděli oblast, ve které cestující zprávu uslyší.</Speakers>
+        <SpeakersObjective>Postavte nejméně 4 reproduktory do oblastí, které budou cestující pravděpodobně navštěvovat. Použijte vizualizaci pro zobrazení pokrytí reproduktorů.</SpeakersObjective>
+        <Amplifier>Celý systém reproduktorů je nutné připojit k ovladači rozhlasového systému.
 
-If you have more than 4 speakers or more than 4 gates, build a HD amplifier to handle the additional load.</Amplifier>
-        <AmplifierObjective>Drag an electrical zone room, and place an amplifier inside. Make sure it meets the requirements.</AmplifierObjective>
-        <Connect>You'll need to connect each speaker to the amplifier, by clicking on the amplifier, and selecting Connect To.
+Pokud máte více než 4 reproduktory nebo více než 4 brány, postavte ovladač HD, který zvládne připojit více zařízení než obyčejný ovladač.</Amplifier>
+        <AmplifierObjective>Postavte místnost a v ní vytvořte zónu elektronika a umístěte dovnitř ovladač rozhlasu. Ujistěte se, že místnost splňuje požadavky zóny.</AmplifierObjective>
+        <Connect>Budete muset připojit každý reproduktor k ovladači, kliknutím na reproduktor/ovladač a výběrem položky Připojit k.
+Aktuálně váš rozhlasový systém nebude nic vysílat! Musíte ještě připojit brány, o kterých chcete informace vysílat, pro přiřazení klikněte na ovladač rozhlasu (připojit k) a následně na bránu, kterou chcete připojit.</Connect>
+        <CompletedPATitle>Palivové služby</CompletedPATitle>
+        <CompletedPA>Váš rozhlasový systém by měl nyní fungovat!
 
-At the moment, your PA system will be broadcasting nothing! You can assign up to four gates that you want it to broadcast information about, by clicking on the amplifier and assigning each one.</Connect>
-        <CompletedPATitle>Fueling Services</CompletedPATitle>
-        <CompletedPA>Your PA system should now be working!
+Dále se podíváme na palivové služby.
 
-Next, we'll look at fueling services.
+Doplňováním paliva do letadel máte možnost získat pro vaše letiště další příjmy, zlepšit hodnocení spokojenosti od leteckých společností a potenciálně získat přístup k novým smlouvám.</CompletedPA>
+        <FuelDepotTitle>Získání paliva</FuelDepotTitle>
+        <FuelDepot>Palivo je dodáváno jednou denně, do vašeho skladu paliva, pomocí cisteren na palivo, které jej dodají do palivového depa.</FuelDepot>
+        <FuelDepotObjective>Postavte palivové depo u hlavní silnice.</FuelDepotObjective>
+        <FuelTanks>Palivo je uloženo v palivových nádržích. Velké palivové nádrže jsou ti k dispozici, ale jsou velmi drahé. Všechny palivové nádrže musí být připojeny k palivovému depu a propojeny palivovým potrubím.
 
-Refueling planes helps your airport earn extra income, improve airline satisfaction ratings, and potentially get access to new contracts.</CompletedPA>
-        <FuelDepotTitle>Getting The Fuel</FuelDepotTitle>
-        <FuelDepot>Fuel is delivered once per day, to a depot where delivery trucks will deliver new fuel from outside of the airport.</FuelDepot>
-        <FuelDepotObjective>Build a fuel depot by the main road.</FuelDepotObjective>
-        <FuelTanks>Fuel is stored in fuel tanks. Large fuel tanks are available, but are very expensive. They need to be connected to the depot, and you can save on piping by building them close.
+Můžete vidět, které trubky obsahují palivo a které ne. Pokud jsou li trubky červené jsou prázdné a pokud jsou zelené jsou plné / připojené k skladu.</FuelTanks>
+        <FuelTanksObjective>Vybudujte alespoň dvě běžné palivové nádrže a připojte je trubkami k depu.</FuelTanksObjective>
+        <RefuelingStationTitle>Z nádrží do letadel</RefuelingStationTitle>
+        <RefuelingStation>Cisterny na palivo se budou pojedou na čerpací stanici, která se naplní.</RefuelingStation>
+        <RefuelingStationObjective>Postavte čerpací stanici vedle příjezdové dráhy a připojte ji ke zbytku palivové sítě pomocí potrubí.</RefuelingStationObjective>
+        <Transport>Je čas si koupit si nějaké cisterny na palivo. Nejprve budete muset postavit hangár a pak už jen zbývá zakoupit v hangáru cisternu na palivo.</Transport>
+        <TransportObjective>Kupte nejméně jednu cisternu na palivo .</TransportObjective>
+        <BuyFuelTitle>Obchod s palivem</BuyFuelTitle>
+        <BuyFuel>Přejděte na položku do nabídky Operační ovládací panel a klikněte na kartu palivo. Zde si můžete palivo koupit, nebo ho prodat. Pokud budete sledovat tržní cenu a budete dostatečně chytří, můžete na prodeji paliva opravdu vydělat!</BuyFuel>
+        <BuyFuelObjective>Kupte nejméně 10 000 litrů paliva. Můžete je zakoupit jednou, nebo si nastavit na automatický nákup na každý den.</BuyFuelObjective>
+        <Active>Pokud zjistíte, že palivové služby jsou "Neaktivní", zkuste se nad nad upozornění najet kurzorem a zjistit, kde je problém.
 
-You can see which pipes have fuel if they are red (empty) or green (full/connected to depot).</FuelTanks>
-        <FuelTanksObjective>Build at least two regular fuel tanks and connect them to the depot.</FuelTanksObjective>
-        <RefuelingStationTitle>From Storage to Planes</RefuelingStationTitle>
-        <RefuelingStation>Trucks will drive along the taxiway to a refuel station to fill up.</RefuelingStation>
-        <RefuelingStationObjective>Build a refuel station next to the taxiway, and connect it to the rest of the fuel network with pipes.</RefuelingStationObjective>
-        <Transport>It's time to buy the trucks that will do the work. You'll need to build a hangar first, and buy the truck from the hangar's menu.</Transport>
-        <TransportObjective>Buy at least one fuel truck.</TransportObjective>
-        <BuyFuelTitle>The Business of Fuel</BuyFuelTitle>
-        <BuyFuel>Go to Operations, and click Fuel Services. You can buy fuel and sell it. If you keep an eye on the market price and are shrewd enough, you can make a profit dealing fuel!</BuyFuel>
-        <BuyFuelObjective>Buy at least 10000 fuel. You can purchase this once, or set it to auto-purchase every day.</BuyFuelObjective>
-        <Active>If you find that the status of fuel services is "Not Active", try hovering over it to see what problems there are.
+Budete muset nastavit cenové schéma. Vyzkoušejte každé; vedle každého se nacházejí informace, které vám pomohou si vybrat ten nejlepší způsob.</Active>
+        <MoreInfo>Pro další informace si prohlédněte tuto kartu.
 
-You will need to set a price scheme. Try each one; there is information below each one to help you choose which pricing method is better.</Active>
-        <MoreInfo>Make sure to scroll down the fuel services window to see more information.
-
-In future, you may want to upgrade your aircraft gates to have fuel ports, which will more efficiently delivery fuel to your planes.</MoreInfo>
-        <FinaleTitle>Working Systems!</FinaleTitle>
-        <Finale>You now have working PA and fuel systems!</Finale>
+V budoucnu můžete vylepšit brány tak, aby měly svoje vlastní palivové porty, které budou efektivněji dodávat palivo do letadel.</MoreInfo>
+        <FinaleTitle>Fungující systémy!</FinaleTitle>
+        <Finale>Nyní máte fungující systém rozhlasu a paliva!</Finale>
     </FuelPA>
     <Scheduling>
         <IntroductionTitle>Scheduling Workers Tutorial</IntroductionTitle>
