@@ -211,19 +211,19 @@ Všimněte si, že rozbočovač má vjezdy a výjezdy, ty poznáte pomocí šipe
         <HubToDepotObjective>Připojte depo k rozbočovači, využijte k tomu zvýrazněné pole.</HubToDepotObjective>
         <CheckDepotWorks>Chcete-li zkontrolovat, zda jsou objekty správně propojené, umístěte kurzor nad depo. Nemělo by již vyžadovat propojení s přepážkou pro odbavení.
         
-It will only deliver luggage for gates assigned to the depot. This can be taken advantage of when you have large airports with multiple depots.</CheckDepotWorks>
-        <CheckDepotWorksObjective>Now click on the depot and assign it to the aircraft gate.</CheckDepotWorksObjective>
-        <DepotToPlane>The baggage will not be able to get to the planes yet! Baggage cars will deliver luggage to and from depots. They are stored in hangars.
+Vozíky na zavazadla budou dodávat zavazadla pouze bránám, které jsou přiřazené k zavazadlovému depu. Toho můžete využít, pokud máte velké letiště s více zavazadlovými depy.</CheckDepotWorks>
+        <CheckDepotWorksObjective>Nyní klikněte na zavazadlové depo a přiřaďte ho k bráně.</CheckDepotWorksObjective>
+        <DepotToPlane>Zavazadla se zatím nemají jak dostat do letadel! Zavazadlové vozíky doručují zavazadla do a ze zavazadlového depa. Vozíky parkují v hangárech.
 
-You can search for "Hangar" in the build menu or find it under structures.</DepotToPlane>
-        <DepotToPlaneObjective>Build a small hangar anywhere next to a taxiway, and once constructed, add a baggage car.</DepotToPlaneObjective>
-        <DepartureWorks>The baggage car will deliver luggage between the depot and the gates assigned.
+V nabídce postavit můžete vyhledat "hangár" nebo jej můžete najít ve struktuře.</DepotToPlane>
+        <DepotToPlaneObjective>Postavte malý hangár kdekoli vedle příjezdové dráhy, a jakmile bude postaven, zakup zavazadlový vozík.</DepotToPlaneObjective>
+        <DepartureWorks>Zavazadlový vozík bude dodávat zavazadla mezi zavazadlovým depem a přiřazenými branami.
 
-That's departure flights sorted, but now we need to sort out arrivals luggage.</DepartureWorks>
-        <DepotToHubTitle>Step 2: From Planes to Carousels</DepotToHubTitle>
-        <DepotToHub>Firstly, let's get the arrivals luggage from the baggage depot to the hub.</DepotToHub>
-        <DepotToHubObjective>Connect the conveyor belts, to match the output of the depot to the remaining input of the hub.</DepotToHubObjective>
-        <Arrivals>Now passengers need a way to actually collect their luggage.
+Nyní máme roztříděné zavazadla do letadel, ale teď musíme ještě vyřídit zavazadla z letadel.</DepartureWorks>
+        <DepotToHubTitle>Krok 2: Z letadel na výdej zavazadel</DepotToHubTitle>
+        <DepotToHub>Za prvé, musí přepravit zavazadla ze zavazadlového depa do rozbočovače.</DepotToHub>
+        <DepotToHubObjective>Propojte pomocí pásového dopravníku výjezd ze zavazadlového depa a vjezd do rozbočovače.</DepotToHubObjective>
+        <Arrivals>Nyní cestující potřebují způsob, jak si svoje zavazadla převzít.
 
 They collect these from baggage carousels, which need to be connected underground. It already comes with a ramp in the middle of it.</Arrivals>
         <ArrivalsObjective>In the Baggage Claim zone, add a carousel, which is found in Utilities.</ArrivalsObjective>
