@@ -153,7 +153,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <zoneoverlays>Překrytí zón </zoneoverlays>
                 <autofocusbuildmenus>Stavební menu: Automaticky vyhledat</autofocusbuildmenus>
                 <holiday>Vánoční motivy</holiday>
-                <reset>Resetovat všechny nastavení</reset>
+                <reset>Resetovat polohu nabídek</reset>
                 <resetbtn>Resetovat</resetbtn>
                 <undergroundoverlay>Průsvitnost pozemních objektů v podzemí</undergroundoverlay>
                 <removeplannedwalls>Po postavení automaticky odstranit naplánované zdi</removeplannedwalls>
@@ -451,7 +451,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <borrow>Půjčit si{0}</borrow>
                     <pay>Splatit {0} </pay>
                     <desc1>Pokud si půjčit peníze z banky, bude vám banka každý den poplatky.</desc1>
-                    <desc2>Důležité: Za každý den se automaticky odečítají pouze úroky. Půjčku můžete kdykoliv splatit.</desc2>
+                    <desc2>Důležité: Každý den automaticky platíte pouze úroky. Půjčku můžete kdykoliv splatit celou splatit ve finančním centru.</desc2>
                     <desc3>Úvěr na maximální úrovni</desc3>
                     <apply>
                         <title>Vzít si půjčku</title>
@@ -476,7 +476,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                         <txt0>Splatit {0}</txt0>
                         <txt1>Splať peníze a sniž tak celkovou půjčku .</txt1>
                     </repayBtn>
-                    <description>Můžete si půjčit peníze z banky, ale pozor banka vám budee každý den účtovat poplatky.
+                    <description>Můžete si půjčit peníze z banky, ale pozor banka vám bude každý den účtovat poplatky.
                         
 DŮLEŽITÉ UPOZORNĚNÍ: 
 Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. Půjčku může splatit pouze v tomto okně.</description>
@@ -810,7 +810,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <desc>Opravdu chcete tento pozemek koupit?</desc>
         </tt1>
         <tt2>
-            <title>DŮLEŽITÉ - Uložte svou hru!</title>
+            <title>Pozor - uložte si svou hru!</title>
             <desc>Během koupi nového pozemku může dojít k pádu hry - hra bude automaticky uložena pod názvem "land_expansion.airport" . Velmi doporučujeme uložit hru manuálně ještě před pokračováním.</desc>
         </tt2>
     </land>
@@ -1804,8 +1804,8 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <Assigning>Přiřazeno:</Assigning>
         <editOptions>Nástroje pro úpravu</editOptions>
         <copy>Kopírovat</copy>
-        <tooltipDescription2>Allocate staff to manage objects at different times of the day. Save money when they go home!</tooltipDescription2>
-        <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
+        <tooltipDescription2>Vytvořte směny, které vám umožní přidělit zaměstnancům pracoviště v různých částech dne. A vy ušetříte peníze, když nejsou na směně!</tooltipDescription2>
+        <ConsistentOverlayName>Přehled směn zaměstnanců</ConsistentOverlayName>
     </staffScheduler>
     <WelcomeToSimAirport>Vítejte u hry SimAirport!</WelcomeToSimAirport>
     <RenameZone>Přejmenovat zónu</RenameZone>
@@ -1813,7 +1813,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <BusArrivals>Přijíždějící zaměstnaci</BusArrivals>
         <ManageAdmin>Správa ředitelů</ManageAdmin>
         <ManageSchedules>Správa směn</ManageSchedules>
-        <ShortHour>/hr</ShortHour>
+        <ShortHour>/hod</ShortHour>
         <WorkmenWarning>Potřebuješ alespoň jednoho!</WorkmenWarning>
         <TooFewStaff>Potřebuješ {0} dalších!</TooFewStaff>
         <AdminVacant>Volný</AdminVacant>
@@ -1830,11 +1830,11 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <Busy>Zaneprázdněný</Busy>
         <Idle>Nečinný</Idle>
         <Away>Pryč</Away>
-        <FireHover>Tohle nikoho nevyhodí, dokud nekliknete na zelenou fajku.
+        <FireHover>Nikoho nevyhodíte, dokud nekliknete na zelenou fajku.
         
 Drž Shift pro vyhození 5 zaměstnanců najednou!
 Drž Ctrl pro vyhození 10 zaměstnanců najednou!</FireHover>
-        <HireHover>Tohle nikoho nepřijme, dokud nekliknete na zelenou fajku.
+        <HireHover>Nikoho nepřijmete, dokud nekliknete na zelenou fajku.
         
 Drž Shift pro přijmutí 5 zaměstnanců najednou!
 Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
@@ -1858,9 +1858,9 @@ Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
         <Max>Maximum:</Max>
         <AutoHire>Automatický najímač/propouštěč</AutoHire>
         <AutoTooltipHead>Automaticky příjmá a propouští zaměstnance</AutoTooltipHead>
-        <AutoTooltipBody>Když přidělíte práci více zaměstnancům než máte, nebo budete mít méně pracovních míst než máte zaměstnanců. Tento stroj automaticky přijme/propustí zaměstnance.
+        <AutoTooltipBody>Když přidělíte práci více zaměstnancům než máte, nebo budete mít méně pracovních míst než máte zaměstnanců. Tento stroj automaticky příjmá/propouští zaměstnance.
         
-Stroj má 6 sekundové zpoždění než provede změnu, takže to nebudete zbytečně utrácet peníze, pokud omylem navýšíte nebo snížíte počet zaměstnanců v editoru směn.</AutoTooltipBody>
+Stroj má 6 sekundové zpoždění než provede změny, takže vám nebude zbytečně utrácet peníze, pokud omylem změníte počet zaměstnanců v editoru směn.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
         <Overview>Přehled kuchyně</Overview>
@@ -1953,78 +1953,78 @@ Stroj má 6 sekundové zpoždění než provede změnu, takže to nebudete zbyte
         <CreateMap>Vytvořit mapu</CreateMap>
     </ScenarioEditor>
     <AirlineDeals>
-        <Negotiate>Negotiate</Negotiate>
-        <Communication>Communication</Communication>
-        <SelectRep>Select Rep</SelectRep>
-        <Reps>Reps</Reps>
-        <Priority>Prioritize Airline Over Research</Priority>
-        <Research>Research</Research>
-        <Airline>Airline</Airline>
-        <Daily>Hours Daily</Daily>
-        <CFO>Can increase the amount the airline is willing to pay in negotiations.</CFO>
-        <COO>Because the COO helps your airport operate smoother, each facility has a greater positive effect on the airline.</COO>
-        <CTO>Because of the CTO's advanced knowledge, the airline will be more willing to move towards your suggested offers.</CTO>
-        <Foreman>Dealing in health and safety, he can reduce the 'cost' to the airline for negotiating large and extra large flights.</Foreman>
-        <FinanceVP>Can increase the amount the airline is willing to pay in negotiations. Just like the CFO, but slightly less effectively.</FinanceVP>
-        <AirlineRep>Has no bonus negotiation abilities.</AirlineRep>
-        <Assign>Assign</Assign>
-        <CannotAssign>Already Maxed</CannotAssign>
-        <Unassign>Unassign</Unassign>
-        <Assigned>Assigned</Assigned>
-        <Unassigned>Unassigned</Unassigned>
-        <Advice>Once arrived at the airport, Sales Reps and Administrators will appear here. You can hire them from thew Staff Hub.</Advice>
-        <Capacity>Capacity</Capacity>
-        <Negotiations>Negotiations</Negotiations>
-        <Wants>Wants</Wants>
-        <Offer>Offer</Offer>
-        <SmallPlanes>Small Planes</SmallPlanes>
-        <LargePlanes>Large Planes</LargePlanes>
-        <XLPlanes>XL Planes</XLPlanes>
-        <RepWarning1>Assign a Rep with a functioning office to this Airline to negotiate a new deal. The airline also needs to have at least a 40% rating of your airport.</RepWarning1>
-        <RepWarning2>Assign a Rep with a functioning office to this Airline to see its needs.</RepWarning2>
-        <Available>Available Planes</Available>
-        <AvailableLimit>Select up to 4.</AvailableLimit>
-        <Tutorial1>Select the number of planes you are looking to negotiate for, set the time block for them to arrive in, and make sure your airport has the right facilities to serve them. Then, call the Airline to begin the talks.
+        <Negotiate>Vyjednávání</Negotiate>
+        <Communication>Komunikace</Communication>
+        <SelectRep>Přiřadit zaměstnance</SelectRep>
+        <Reps>Zaměstnanci</Reps>
+        <Priority>Upřednostnit leteckou společnost před výzkumem</Priority>
+        <Research>Výzkum</Research>
+        <Airline>Letecká společnost</Airline>
+        <Daily>Hodin denně</Daily>
+        <CFO>Může zvýšit částku, kterou je letecká společnost ochotna zaplatit při vyjednávání.</CFO>
+        <COO>Provozní ředitel pomáhá vašemu letišti pracovat plynule, každé zařízení tak má na leteckou společnost větší pozitivní vliv.</COO>
+        <CTO>Vzhledem k pokročilým znalostem ředitele technologií bude letecká společnost ochotnější přistoupit k vašim navrhovaným nabídkám.</CTO>
+        <Foreman>Dokáže snížit náklady za účelem vyjednání velkých a extra velkých letů.</Foreman>
+        <FinanceVP>Může zvýšit částku, kterou je letecká společnost ochotna zaplatit při vyjednávání. Stejně jako finanční ředitel ale o něco méně efektivně.</FinanceVP>
+        <AirlineRep>Při vyjednávání nemá žádný bonus.</AirlineRep>
+        <Assign>Přiřadit</Assign>
+        <CannotAssign>Maximum dosaženo</CannotAssign>
+        <Unassign>Zrušit</Unassign>
+        <Assigned>Přiřazen</Assigned>
+        <Unassigned>Nepřiřazen</Unassigned>
+        <Advice>Jakmile najmeš obchodní zástupce a administrátory, objeví se zde.</Advice>
+        <Capacity>Kapacita</Capacity>
+        <Negotiations>Vyjednávání<Negotiations>
+        <Wants>Požaduje<Wants>
+        <Offer>Nabízíš<Offer>
+        <SmallPlanes>Malé letadla<SmallPlanes>
+        <LargePlanes>Velké letadla</LargePlanes>
+        <XLPlanes>Extra velké letadla</XLPlanes>
+        <RepWarning1>Přiřaď obchodního zástupce s funkční kanceláří této letecké společnosti pro vyjednání nové dohody. Letecká společnost také musí být spokojená alespoň na 40%.</RepWarning1>
+        <RepWarning2>Přiřaď obchodního zástupce s funkční kanceláří k této letecké společnosti, aby jsi mohl vidět její potřeby.</RepWarning2>
+        <Available>Dostupné letadla</Available>
+        <AvailableLimit>Vyberte až 4.</AvailableLimit>
+        <Tutorial1>Vyberte počet letadel, o kterých chcete vyjednávat a nastavte časový blok ve kterém je chcete odbavit, také se ujistěte, že vaše letiště má dostatek prostoru a vybavení pro odbavení těchto letadel . Poté kontaktujte leteckou společnost a začněte vyjednávat.
         
-The more they are satisfied with your service, the more flights they will offer and the less demands they will make.</Tutorial1>
-        <Tutorial2>Use the atmosphere to work out how positively or negatively the airline is reacting to your changes. Use the text input boxes to type in new offers, or use the sliders.
+Čím více je letecká společnost spokojena s vašimi službami, tím více letů vám nabídne a o to méně požadavků bude mít.</Tutorial1>
+        <Tutorial2>Využijte atmosféru, abyste zjistili, jak pozitivně nebo negativně reaguje letecká společnost na vaše změny. Pomocí textových polí změnte nabídky nebo použijte posuvníky.
 
-Up to one offer can be made non-negotiable, which will make them stick with that value. However, this may hinder their ability to return you their best offer.
+Až jeden požadavek můžete odmítnout. To vám však může zabránit získat tu nejlepší možnou nabídku.
 
-Remember to read the contract breaches section, and checkout the current deal you have with this airline.</Tutorial2>
-        <Intro>Upsell your contracts to airlines by offering facilities in exchange for higher fees. You can also request additional planes here.</Intro>
-        <TimePreferences>Time Preferences</TimePreferences>
-        <TimeSlots>Choose the time slot for the flights to arrive in.
-Each airline has preferences for each, so the higher the score the less it will cost them (and you!)
+Nezapomeňte si ve smlouvě přečíst sekci o nedodržení smlouvy, a podívat se na vaši aktuální smlouvu, kterou  máte s touto leteckou společností.</Tutorial2>
+        <Intro>Rozšiřte své smlouvy s leteckými společnostmi tím, že nabídnete další zařízení výměnou za vyšší poplatky. Můžete také požádat o další letadla.</Intro>
+        <TimePreferences>Preferovaný čas</TimePreferences>
+        <TimeSlots>Vyberte časový úsek, ve kterém mají být lety odbaveny.
+Každá letecká společnost má své preference, takže čím vyšší procentuální skóre, tím méně vás to bude stát!
         </TimeSlots>
-        <LowInterest>Since the last negotiation took place, we have found the deal is no longer suitable. We need to negotiate or else the contract will be terminated.</LowInterest>
-        <Terminate>Terminate</Terminate>
-        <CannotRenegotiate>Since the last negotiation took place, we have found the deal is no longer suitable. It is not of our interest to renegotiate the contract at this time, so the previously negotiated terms will be terminated.</CannotRenegotiate>
-        <Feedback>This airline is too small to negotiate with you right now, or they have too low of an interest. They can serve up to {0} planes and have an interest of {1}.
+        <LowInterest>Od posledního jednání jsme zjistili, že dohoda již pro nás není výhodná. Musíme znovu vyjednávat, jinak bude smlouva ukončena.</LowInterest>
+        <Terminate>Vypověděť</Terminate>
+        <CannotRenegotiate>Od posledního jednání jsme zjistili, že smlouva již pro nás není výhodná. V současné době není naším zájmem smlouvu znovu obnovit, takže dříve platná smlouva bude vypovězena.</CannotRenegotiate>
+        <Feedback>Tato letecká společnost je příliš malá, aby s vámi mohla právě teď vyjednávat, nebo má příliš nízký zájem. Letecká společnost může nabídnout až {0} letadel a její zájem je {1}.
         
-Asking for more planes may open up this airline to you for negotiation.</Feedback>
-        <Help>Help</Help>
-        <Call>Call</Call>
-        <Atmosphere>Current Atmosphere</Atmosphere>
-        <Cold>Cold</Cold>
-        <Cool>Cool</Cool>
-        <AirlineExclusivity>Assign Airline Exclusivity</AirlineExclusivity>
-        <AirlineMatchScheduler>Airline of flight must match the airline of the gate.</AirlineMatchScheduler>
-        <Warm>Warm</Warm>
-        <Good>Good</Good>
-        <Hot>Hot</Hot>
-        <HoverZoneSubHeading>Can Be Airline Owned!</HoverZoneSubHeading>
-        <HoverZoneBody>Click to assign exclusive rights to an airline.</HoverZoneBody>
-        <Accepted>Accepted</Accepted>
-        <Rejected>Rejected</Rejected>
-        <Negotiable>Negotiable</Negotiable>
-        <NonNegotiable>Non Negotiable</NonNegotiable>
-        <YourOffer>Your Offer</YourOffer>
-        <NextRound>Next Round</NextRound>
-        <LastRound>Last Round Overview</LastRound>
-        <TheirCounter>Their Counter</TheirCounter>
-        <SendOffer>Send Offer</SendOffer>
-        <ConfirmHeading>End The Negotiations?</ConfirmHeading>
+Zažádáním o více letadel můžete tuto leteckou společnost přimět k vyjednání s vámi.</Feedback>
+        <Help>Pomoc</Help>
+        <Call>Kontaktovat</Call>
+        <Atmosphere>Aktuální atmosféra</Atmosphere>
+        <Cold>Otřesná</Cold>
+        <Cool>Špatná</Cool>
+        <AirlineExclusivity>Přiřaďte exkluzivitu letecké společnosti</AirlineExclusivity>
+        <AirlineMatchScheduler>Let této letecké společnosti musí být odbaven u její brány.</AirlineMatchScheduler>
+        <Warm>Dobrá</Warm>
+        <Good>Skvělá</Good>
+        <Hot>Vynikající</Hot>
+        <HoverZoneSubHeading>Může být vlastněno leteckou společností!</HoverZoneSubHeading>
+        <HoverZoneBody>Kliknutím přidělíte výhradní práva letecké společnosti.</HoverZoneBody>
+        <Accepted>Přijato</Accepted>
+        <Rejected>Odmítnuto</Rejected>
+        <Negotiable>Obchodovatelné</Negotiable>
+        <NonNegotiable>Neobchodovatelné</NonNegotiable>
+        <YourOffer>Tvoje nabídka</YourOffer>
+        <NextRound>Další kolo</NextRound>
+        <LastRound>Přehled posledního kola</LastRound>
+        <TheirCounter>Jejich odpověď</TheirCounter>
+        <SendOffer>Poslat nabídku</SendOffer>
+        <ConfirmHeading>Ukončit vyjednávání?</ConfirmHeading>
         <ConfirmBody>Any changes you have negotiated will be discarded. This will hurt Communication and lose you a small amount of Trust with this airline.</ConfirmBody>
         <ConfirmWarning>Warning: The airline is demanding a renegotiation! This will breach your existing contract!</ConfirmWarning>
         <Waiting>Your counter offer has been sent to the airline. They will get back to you when they have reached a verdict within the next day.</Waiting>
