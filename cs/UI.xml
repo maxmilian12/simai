@@ -933,8 +933,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <LevelUp>O patro víš</LevelUp>
             <LevelDown>O patro níž</LevelDown>
             <LevelGroundFloor>Přenout se na přízemí</LevelGroundFloor>
-            <ClearTool>Dismantle Tool</ClearTool>
-            <TimelapseToggle>Timelapse Toggle</TimelapseToggle>
+            <ClearTool>Demontovat</ClearTool>
+            <TimelapseToggle>přepnout timelapse</TimelapseToggle>
         </keyfunc>
         <needs>
             <Bladder>Potřeba toalety</Bladder>
